@@ -6,3 +6,19 @@
     padding: 0;
     color: $text-color;
 }
+
+.wrapper {
+    width: 100%;
+
+    .content {
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+    }
+}
+
+@import "./header";
+@import "./main-image";
+@import "link-btn";
+@import "container-offer";
+@import "container-cities";

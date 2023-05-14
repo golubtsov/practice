@@ -1,0 +1,14 @@
+@import "variables";
+
+.link-btn {
+    display: block;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    background-color: $btn-color;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+}
