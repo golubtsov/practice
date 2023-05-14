@@ -54,6 +54,7 @@
                     @endforeach
                 </div>
             </div>
+            @include('forms.form-question')
         </div>
     </div>
 

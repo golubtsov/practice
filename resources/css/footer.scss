@@ -1,0 +1,42 @@
+@import "variables";
+
+footer {
+    width: 100%;
+    background-color: $background-menu;
+    color: white;
+
+    .wrapper {
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        padding: 20px 0;
+
+        .block-contact {
+            margin-left: 100px;
+            margin-top: 20px;
+
+            ul {
+                list-style-type: none;
+                font-size: 16px;
+
+                li {
+                    margin: 5px 0;
+
+                    a {
+                        text-decoration: none;
+
+                        img {
+                            width: 32px;
+                            height: 32px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .down {
+            margin-top: 12px;
+            text-align: center;
+        }
+    }
+}

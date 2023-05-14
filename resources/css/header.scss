@@ -33,6 +33,26 @@ header {
                 }
             }
 
+            &__center {
+                display: flex;
+                align-items: center;
+
+                .item-center {
+                    margin: 0 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 18px;
+                        transition: all 0.3s;
+
+                        &:hover {
+                            color: rgb(206, 206, 206);
+                        }
+                    }
+                }
+            }
+
             &__right {
                 height: 100%;
                 display: flex;

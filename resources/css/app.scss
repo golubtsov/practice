@@ -4,7 +4,7 @@
     font-family: Arial;
     margin: 0;
     padding: 0;
-    color: $text-color;
+    //color: $text-color;
 }
 
 .wrapper {
@@ -17,8 +17,10 @@
     }
 }
 
-@import "./header";
-@import "./main-image";
+@import "header";
+@import "main-image";
 @import "link-btn";
 @import "container-offer";
 @import "container-cities";
+@import "form";
+@import "footer";

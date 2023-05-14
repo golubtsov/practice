@@ -1,0 +1,38 @@
+.container-form {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+        width: 500px;
+        border: 1px solid #D8D8D8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+
+        .form-title {
+            margin: 15px 0;
+        }
+
+        .form-data {
+            margin: 5px 0;
+
+            input, textarea {
+                width: 300px;
+                margin: auto;
+                padding: 5px 10px;
+                font-size: 16px;
+                border: 1px solid #D8D8D8;
+                border-radius: 5px;
+            }
+        }
+
+        .link-btn {
+            margin: 20px 0;
+        }
+    }
+}
