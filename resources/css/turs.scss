@@ -1,0 +1,19 @@
+@import "variables";
+
+.container-select {
+    //margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    .item-select {
+        margin: 0 40px;
+
+        select {
+            font-size: 14px;
+            padding: 2px 8px;
+            background-color: white;
+            border: 1px solid #9ca3af;
+            border-radius: 5px;
+        }
+    }
+}

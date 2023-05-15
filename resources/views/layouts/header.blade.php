@@ -7,10 +7,10 @@
         </div>
         <div class="header-container__center">
             <div class="item-center">
-                <a href="">Главная</a>
+                <a href="/">Главная</a>
             </div>
             <div class="item-center">
-                <a href="">Предложения</a>
+                <a href="{{route('turs')}}">Предложения</a>
             </div>
         </div>
         <div class="header-container__right">

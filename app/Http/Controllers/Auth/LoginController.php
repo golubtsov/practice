@@ -15,7 +15,7 @@ class LoginController extends Controller
         if(auth()->user()){
             return back();
         }
-        return view('auth.login');
+        return view('login');
     }
 
     public function login(Request $request): RedirectResponse | View

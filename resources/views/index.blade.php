@@ -20,10 +20,13 @@
                                 <img src="{{asset("storage/$tur->image_url")}}" alt="">
                             </div>
                             <div class="offer-name">
-                                <p><a href="">{{$tur->name}}</a></p>
+                                <p><a href="{{route('tur', [$tur->id])}}">{{$tur->name}}</a></p>
                             </div>
                             <div class="offer-place">
                                 <p>{{$tur->adress->city}}</p>
+                            </div>
+                            <div class="offer-place">
+                                <p><span>{{$tur->price}}</span> руб.</p>
                             </div>
                         </div>
                     @endforeach
@@ -47,7 +50,7 @@
                                     <p>{{$adress->description}}</p>
                                 </div>
                                 <div class="block-link">
-                                    <a href="" class="link-btn">Поехали</a>
+                                    <a href="{{route('turs')}}" class="link-btn">Поехали</a>
                                 </div>
                             </div>
                         </div>

@@ -4,7 +4,6 @@
     font-family: Arial;
     margin: 0;
     padding: 0;
-    //color: $text-color;
 }
 
 .wrapper {
@@ -13,7 +12,11 @@
     .content {
         width: 100%;
         max-width: 1500px;
-        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -24,3 +27,5 @@
 @import "container-cities";
 @import "form";
 @import "footer";
+@import "turs";
+@import "tur";

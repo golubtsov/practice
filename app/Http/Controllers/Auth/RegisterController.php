@@ -19,7 +19,7 @@ class RegisterController extends Controller
         if(auth()->user()){
             return back();
         }
-        return view('auth.register');
+        return view('register');
     }
 
     public function register(Request $request): View
