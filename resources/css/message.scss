@@ -1,0 +1,18 @@
+@import "variables";
+
+.container-message {
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    text-align: center;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+
+    p {
+        font-size: 16px;
+        padding: 10px;
+        color: white;
+    }
+}

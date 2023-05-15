@@ -1,3 +1,6 @@
+<div class="container-message">
+    <p>Тур оформлен! В ближайшее время с вами свяжется менеджер.</p>
+</div>
 <div class="container-form">
     <form action="">
         <div class="form-title">
