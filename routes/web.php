@@ -14,3 +14,5 @@ Route::get('register', [\App\Http\Controllers\Auth\RegisterController::class, 'i
 Route::get('/turs', [\App\Http\Controllers\TurController::class, 'index'])->name('turs');
 Route::get('/turs/{id}', [\App\Http\Controllers\TurController::class, 'tur'])->name('tur');
 
+Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index']);
+

@@ -1,0 +1,19 @@
+@import "variables";
+
+.container-table {
+    width: 60%;
+    justify-content: center;
+    margin: 100px auto;
+    min-height: 70vh;
+
+    table {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+
+        td {
+            margin: 20px 0;
+        }
+    }
+}
