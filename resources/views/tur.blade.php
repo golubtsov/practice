@@ -25,7 +25,11 @@
                         <p><b>Цена: </b>{{$tur->price}} руб.</p>
                     </div>
                     <div class="info__link">
-                        <p><a href="" class="link-btn">Оформить</a></p>
+                        <p>
+                            <form action="/oder/create?u=22" method="get">
+                                <input class="link-btn" style="cursor: pointer" type="submit" value="Оформить" />
+                            </form>
+                        </p>
                     </div>
                     <div class="info__about">
                         <h3>Описание</h3>

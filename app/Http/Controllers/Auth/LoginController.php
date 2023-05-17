@@ -27,8 +27,7 @@ class LoginController extends Controller
 
         if (Auth::attempt($request->only('email', 'password'))) {
             $user = auth()->user();
-            $user->posts = $user->posts();
-            return view('dashboard.index')->with(compact('user'));
+            return view('dashboard')->with(compact('user'));
         }
         return back()->withInput();
     }

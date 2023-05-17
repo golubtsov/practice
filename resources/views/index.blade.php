@@ -5,7 +5,6 @@
 @endsection
 
 @section('content')
-
     <div class="wrapper">
         <div class="content">
             @include('layouts.main-image')

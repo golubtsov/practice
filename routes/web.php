@@ -16,3 +16,6 @@ Route::get('/turs/{id}', [\App\Http\Controllers\TurController::class, 'tur'])->n
 
 Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index']);
 
+Route::post('/questions/create', [\App\Http\Controllers\QuestionController::class, 'create'])->name('question.create');
+
+Route::get('/oder/create', [\App\Http\Controllers\OderController::class, 'create'])->name('oder.create');

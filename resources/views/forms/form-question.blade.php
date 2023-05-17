@@ -2,19 +2,20 @@
     <p>Тур оформлен! В ближайшее время с вами свяжется менеджер.</p>
 </div>
 <div class="container-form">
-    <form action="">
+    <form action="{{route('question.create')}}" method="post">
+        @csrf
         <div class="form-title">
             <h2>Задать вопрос</h2>
         </div>
         <div class="form-data">
-            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="text" name="client" placeholder="Ваше имя">
         </div>
         <div class="form-data">
             <input type="text" name="email" placeholder="Email">
         </div>
         <div class="form-data">
-            <textarea name="question" placeholder="Ваш вопрос"></textarea>
+            <textarea name="text" placeholder="Ваш вопрос"></textarea>
         </div>
-        <a href="" class="link-btn">Отправить</a>
+        <input type="submit" class="link-btn" value="Отправить" style="cursor: pointer" />
     </form>
 </div>

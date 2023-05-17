@@ -16,7 +16,7 @@
         <div class="header-container__right">
             <div class="header-container__right__login">
                 @if(auth()->user())
-                    <form action="{{asset('/logout')}}" method="post" class="form-logout">
+                    <form action="{{asset('/logout')}}" method="get" class="form-logout">
                         @csrf
                         <button class="link-login">
                             <img src="{{asset('images/icons/logout.png')}}" height="28px">
