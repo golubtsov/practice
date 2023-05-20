@@ -2,12 +2,13 @@
     background: url("images/icons/main-img.jpg");
     min-height: 600px;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
     .main-title {
         width: 70%;
