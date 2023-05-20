@@ -6,9 +6,6 @@
 
 @section('content')
     <div class="wrapper">
-        <div class="container-message">
-            <p>Тур оформлен! В ближайшее время с вами свяжется менеджер.</p>
-        </div>
         <div class="content">
             <div class="container-info">
                 <div class="container-info__image">
@@ -27,6 +24,7 @@
                     <div class="info__link">
                         <p>
                             <form action="/oder/create?u=22" method="get">
+                                <input type="text" name="tur" id="tur" value="{{$tur->id}}" style="display: none">
                                 <input class="link-btn" style="cursor: pointer" type="submit" value="Оформить" />
                             </form>
                         </p>

@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Oder extends Model
 {
     use HasFactory;
+
+    protected $guarded = [];
+
+    public function tur()
+    {
+        return $this->hasMany(Oder::class, 'tur_id');
+    }
 }

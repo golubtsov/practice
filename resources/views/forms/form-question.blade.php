@@ -1,6 +1,3 @@
-<div class="container-message">
-    <p>Тур оформлен! В ближайшее время с вами свяжется менеджер.</p>
-</div>
 <div class="container-form">
     <form action="{{route('question.create')}}" method="post">
         @csrf
@@ -16,6 +13,6 @@
         <div class="form-data">
             <textarea name="text" placeholder="Ваш вопрос"></textarea>
         </div>
-        <input type="submit" class="link-btn" value="Отправить" style="cursor: pointer" />
+        <input type="submit" class="link-btn" value="Отправить" style="cursor: pointer"/>
     </form>
 </div>

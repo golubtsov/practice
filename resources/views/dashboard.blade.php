@@ -15,12 +15,15 @@
                         <th>Цена</th>
                         <th>Статус</th>
                     </tr>
-                    <tr>
-                        <td>123</td>
-                        <td>Шерегеш</td>
-                        <td>12 000 руб</td>
-                        <td>Оформлен</td>
-                    </tr>
+                    @if(count($oders) !== 0)
+                        @foreach($oders as $oder)
+                            <tr>
+                                <td>{{$oder->tur->id}}</td>
+                                <td>{{$oder->tur->name}}</td>
+                                <td>{{$oder->tur->price}} руб</td>
+                                <td>Оформлен</td>
+                        @endforeach
+                    @endif
                 </table>
             </div>
         </div>

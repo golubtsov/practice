@@ -7,6 +7,16 @@
 @section('content')
     <div class="wrapper">
         <div class="content">
+            @if(!is_null(session('message')))
+                <div class="container-message">
+                    <p>{{session('message')}}</p>
+                </div>
+                <script>
+                    setTimeout(() => {
+                        document.querySelector('.container-message').style.display = 'none';
+                    }, 3000);
+                </script>
+            @endif
             @include('layouts.main-image')
             <div class="container-offer">
                 <div class="container-offer__title">

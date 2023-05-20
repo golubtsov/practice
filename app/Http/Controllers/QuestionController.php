@@ -15,7 +15,7 @@ class QuestionController extends Controller
             'text' => $request->all()['text'],
         ]);
 
-        return redirect()->back()->with(compact('res'));
+        return redirect()->back()->with('message', 'Вопрос отправлен, скоро с вами свяжется наш менеджер');
     }
 }
 

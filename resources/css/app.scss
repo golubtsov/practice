@@ -31,3 +31,9 @@
 @import "tur";
 @import "message";
 @import "table";
+
+.container-table {
+    table td {
+        margin: 10px 0;
+    }
+}
